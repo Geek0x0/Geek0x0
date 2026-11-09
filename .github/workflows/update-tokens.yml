@@ -12,6 +12,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,6 +23,11 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p assets
+
+          if [ -z "${READ_TOKEN}" ]; then
+            echo "Missing TOKENS_CI_READ_TOKEN secret"
+            exit 1
+          fi
 
           curl --fail --silent --show-error \
             --retry 3 \
@@ -39,6 +45,45 @@ jobs:
             exit 1
           fi
 
+      - name: Remove Rank from SVG
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("assets/tokens.svg")
+          svg = path.read_text(encoding="utf-8")
+
+          labels = [
+              "Rank · tokens",
+              "Unranked",
+          ]
+
+          for label in labels:
+              pattern = (
+                  r'<text\b[^>]*>\s*'
+                  + re.escape(label)
+                  + r'\s*</text>'
+              )
+
+              svg, count = re.subn(
+                  pattern,
+                  "",
+                  svg,
+                  flags=re.IGNORECASE
+              )
+
+              if count != 1:
+                  raise RuntimeError(
+                      f"Expected one '{label}' element, "
+                      f"found {count}"
+                  )
+
+          path.write_text(svg, encoding="utf-8")
+
+          print("Rank removed successfully")
+          PY
+
       - name: Commit updated card
         run: |
           git config user.name "github-actions[bot]"
@@ -49,4 +94,6 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Update tokens card"
             git push
+          else
+            echo "No changes to commit"
           fi
