@@ -7,7 +7,7 @@
   <g transform="translate(273.90 19.43) scale(0.3333)" stroke="#2F8FFF" stroke-width="5" stroke-linecap="round" fill="none"><path d="M14 15h36"/><path d="M32 15v34"/><path d="M22 27h20" opacity="0.75"/><path d="M24.5 37h15" opacity="0.5"/><path d="M27 47h10" opacity="0.3"/></g>
   <text x="336" y="34" fill="#A1A1AA" font-size="11" font-weight="600" text-anchor="end" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Tokens</text>
   <text x="392" y="22" fill="#A1A1AA" font-size="10" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Tokens</text>
-  <text x="392" y="42" fill="#2F8FFF" font-size="14" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="76">21B</text>
+  <text x="392" y="42" fill="#2F8FFF" font-size="14" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="76">21.1B</text>
   <text x="480" y="22" fill="#A1A1AA" font-size="10" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Cost</text>
   <text x="480" y="42" fill="#3FB950" font-size="14" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="76">$11.9K</text>
   
