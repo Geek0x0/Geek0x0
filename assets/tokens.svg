@@ -7,7 +7,7 @@
   <g transform="translate(273.90 19.43) scale(0.3333)" stroke="#2F8FFF" stroke-width="5" stroke-linecap="round" fill="none"><path d="M14 15h36"/><path d="M32 15v34"/><path d="M22 27h20" opacity="0.75"/><path d="M24.5 37h15" opacity="0.5"/><path d="M27 47h10" opacity="0.3"/></g>
   <text x="336" y="34" fill="#A1A1AA" font-size="11" font-weight="600" text-anchor="end" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Tokens</text>
   <text x="392" y="22" fill="#A1A1AA" font-size="10" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Tokens</text>
-  <text x="392" y="42" fill="#2F8FFF" font-size="14" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="76">21.5B</text>
+  <text x="392" y="42" fill="#2F8FFF" font-size="14" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="76">21.8B</text>
   <text x="480" y="22" fill="#A1A1AA" font-size="10" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Cost</text>
   <text x="480" y="42" fill="#3FB950" font-size="14" font-weight="600" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="76">$12K</text>
   
@@ -400,6 +400,7 @@
   <rect x="646.60" y="116.79" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-11-10 · level 2</title></rect>
   <rect x="646.60" y="128.19" width="9.40" height="9.40" rx="2.0" fill="#4069b2"><title>2026-11-11 · level 1</title></rect>
   <rect x="646.60" y="139.58" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-11-12 · level 2</title></rect>
+  <rect x="646.60" y="150.98" width="9.40" height="9.40" rx="2.0" fill="#1A1A1A"><title>2026-11-13 · level 0</title></rect>
   <text x="539" y="195.77358490566039" fill="#A1A1AA" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Less</text>
   <rect x="563" y="187.77358490566039" width="9" height="9" rx="2" fill="#1A1A1A"/>
   <rect x="576" y="187.77358490566039" width="9" height="9" rx="2" fill="#4069b2"/>
@@ -410,7 +411,7 @@
   </g>
   
   <g data-card-footer-y="224">
-  <text x="24" y="224" fill="#A1A1AA" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="536">Updated Nov 12, 2026 (UTC)</text>
+  <text x="24" y="224" fill="#A1A1AA" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="536">Updated Nov 13, 2026 (UTC)</text>
   <text x="656" y="224" fill="#A1A1AA" font-size="10" text-anchor="end" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="78">tokens.ci</text>
   </g>
 </svg>
