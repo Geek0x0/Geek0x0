@@ -401,6 +401,7 @@
   <rect x="646.60" y="128.19" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-11-25 · level 2</title></rect>
   <rect x="646.60" y="139.58" width="9.40" height="9.40" rx="2.0" fill="#1f6feb"><title>2026-11-26 · level 2</title></rect>
   <rect x="646.60" y="150.98" width="9.40" height="9.40" rx="2.0" fill="#1A1A1A"><title>2026-11-27 · level 0</title></rect>
+  <rect x="646.60" y="162.38" width="9.40" height="9.40" rx="2.0" fill="#1A1A1A"><title>2026-11-28 · level 0</title></rect>
   <text x="539" y="195.77358490566039" fill="#A1A1AA" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Less</text>
   <rect x="563" y="187.77358490566039" width="9" height="9" rx="2" fill="#1A1A1A"/>
   <rect x="576" y="187.77358490566039" width="9" height="9" rx="2" fill="#4069b2"/>
@@ -411,7 +412,7 @@
   </g>
   
   <g data-card-footer-y="224">
-  <text x="24" y="224" fill="#A1A1AA" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="536">Updated Nov 27, 2026 (UTC)</text>
+  <text x="24" y="224" fill="#A1A1AA" font-size="10" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="536">Updated Nov 28, 2026 (UTC)</text>
   <text x="656" y="224" fill="#A1A1AA" font-size="10" text-anchor="end" font-family="Figtree, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" data-fit-max-width="78">tokens.ci</text>
   </g>
 </svg>
